@@ -5,16 +5,7 @@ import Link from 'next/link';
 export default function Nav() {
   const [listOpen, setListOpen] = useState(false);
 
-  useEffect(() => {
-    document.querySelector('#__dropdown').addEventListener('mouseenter', () => {
-      setListOpen(true);
-    })
-
-
-    return () => {
-      
-    }
-  }, []);
+  const handleDropdown = () => setListOpen(!listOpen);
 
   return (
     <nav className={styles['nav']}>
@@ -25,7 +16,7 @@ export default function Nav() {
         </Link>
       </h3>
       <h4 className={styles['nav--title']}>React Course -
-        <span id={'__dropdown'} onClick={() => setListOpen(!listOpen)}> Projects</span></h4>
+        <span onClick={handleDropdown}> Projects</span></h4>
       <ul className={listOpen ? styles['nav--open'] : styles['nav--list']}>
         <li>
           <Link href="/projects/digitalbusinesscard" passHref>
