@@ -1,0 +1,115 @@
+.dbc {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding: 1rem;
+
+  &--container {
+    margin: auto;
+    width: 18.8125rem;
+  }
+
+  &--img-container {
+    aspect-ratio: 1/1;
+    background: hsla(0, 0%, 100%, .029);
+    backdrop-filter: blur(.4375rem);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: .625rem .625rem 0 0;
+    border: .0625rem solid rgba(255, 255, 255, .05);
+    position: relative;
+    transition: background .45s ease;
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &--dots-container {
+    display: flex;
+    padding: .5em;
+    position: absolute;
+  }
+
+  &--dots {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    content: '';
+    padding: .25rem;
+    margin: 0 .25rem;
+    width: .8rem;
+  }
+
+  &--content-container {
+    background: #1A1B21;
+    padding: 1.25rem;
+  }
+
+  &--card-header {
+    padding-block: .8258rem;
+    text-align: center;
+  }
+
+  &--headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  &--subline {
+    color: #F3BF99;
+    font-size: 1.05rem;
+    font-weight: 300;
+    margin: .625rem 0;
+  }
+
+  &--btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .675rem;
+  }
+
+  &--btn {
+    align-items: center;
+    border: none;
+    border-radius: 0.375rem;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-height: 2.125rem;
+    padding: .5625rem .8125rem .5625rem .6875rem;
+    max-width: 8.875rem;
+    width: 100%;
+  }
+
+  .icon {
+    margin: 0 .5rem;
+  }
+
+  .mail {
+    background: #fff;
+  }
+
+  .linkedin {
+    background: #5093E2;
+    color: #fff;
+  }
+
+  &--about,
+  &--interests {
+    margin: 1.5rem 0;
+
+    h2 {
+      margin-bottom: .585rem;
+    }
+  }
+
+  &--footer {
+    align-items: center;
+    background: #161619;
+    border-radius: 0 0 0.625rem 0.625rem;
+    display: flex;
+    justify-content: center;
+    height: 4.625rem;
+  }
+}

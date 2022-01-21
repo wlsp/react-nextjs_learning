@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.active {
+  color: #61d4fb;
+}
+
+body {
+  background: url('../public/images/react-bg.svg') no-repeat right center / 12%, #282D35;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

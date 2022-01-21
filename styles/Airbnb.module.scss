@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+.airbnb {
+  background: #fff;
+  border-radius: .5625rem;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  width: 34.375rem;
+
+  &--grey {
+    color: #918E9B;
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--nav {
+    align-items: center;
+    background: #fff;
+    border-radius: .5625rem .5625rem 0 0;
+    box-shadow: 0 .1864rem .466rem rgba(0, 0, 0, .1);
+    display: flex;
+    height: 4.375rem;
+    padding: 0 1.5rem;
+  }
+
+  &--hero {
+    padding: 1.5rem;
+  }
+
+  &--photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 25rem;
+  }
+
+  &--headline {
+    font-size: 2.25rem;
+    margin: 1rem 0;
+  }
+
+  &--text {
+    font-weight: 300;
+    width: 20rem;
+  }
+
+  &--cards-container {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+  }
+
+  &--card {
+    font-size: .75rem;
+    min-width: 14.25rem;
+    position: relative;
+    scroll-snap-align: start;
+  }
+
+  &--badge {
+    background-color: #fff;
+    border-radius: .125rem;
+    font-weight: 700;
+    left: .375rem;
+    padding: .3125rem .4375rem;
+    position: absolute;
+    top: .375rem;
+  }
+
+  &--card-image {
+    border-radius: .5625rem;
+    width: 100%;
+  }
+
+  &--card-stats {
+    display: flex;
+    align-items: center;
+  }
+
+  &--card-star {
+    height: .875rem;
+  }
+}
