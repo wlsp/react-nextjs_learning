@@ -17,7 +17,7 @@ Router.events.on("routeChangeError", progress.finish);
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
     </Layout>
   )
 }
