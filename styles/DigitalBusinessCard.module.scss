@@ -80,6 +80,9 @@
     padding: .5625rem .8125rem .5625rem .6875rem;
     max-width: 8.875rem;
     width: 100%;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .icon {

@@ -38,7 +38,7 @@ function AirbnbCard({ img, rating, reviewCount, location, title, price, openSpot
 function AirbnbHero() {
   return (
     <section className={styles['airbnb--hero']}>
-      <img src={'/images/photo-grid.png'} alt='Grid Gallery' className={styles['airbnb--photo']} />
+      <img src={'/images/photo-grid.webp'} alt='Grid Gallery' className={styles['airbnb--photo']} />
       <h1 className={styles['airbnb--headline']}>Online Experiences</h1>
       <p className={styles['airbnb--text']}>Join unique interactive activities led by
         one-of-a-kind hosts—all without leaving home.</p>

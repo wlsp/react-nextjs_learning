@@ -12,7 +12,7 @@ export default function DigitalBusinessCard() {
     <section className={styles['dbc']}>
       <div className={styles['dbc--container']}>
         <figure className={styles['dbc--img-container']} style={{ background: color }}>
-          <img src={'../images/wlsp.png'} alt='wlsp' />
+          <img src={'../images/wlsp.webp'} alt='wlsp' />
           <div className={styles['dbc--dots-container']}>
             <div className={styles['dbc--dots']} style={{ backgroundColor: '#5A6583' }} onClick={() => { setColor('#5A6583') }}></div>
             <div className={styles['dbc--dots']} style={{ backgroundColor: '#809CF5' }} onClick={() => { setColor('#809CF5') }}></div>
@@ -26,8 +26,8 @@ export default function DigitalBusinessCard() {
             <p className={styles['dbc--page-link']}><a href={'https://www.wlsp.dev/'} target='_blank' rel="noreferrer">wlsp.dev</a></p>
           </div>
           <div className={styles['dbc--btn-container']}>
-            <button className={`${styles['dbc--btn']} ${styles['mail']}`}><MailIcon className={styles['icon']} /> Email</button>
-            <button className={`${styles['dbc--btn']} ${styles['linkedin']}`}><LinkedinIcon className={styles['icon']} />  LinkedIn</button>
+            <button className={`${styles['dbc--btn']} ${styles['mail']}`} type=''><MailIcon className={styles['icon']} />Email</button>
+            <button className={`${styles['dbc--btn']} ${styles['linkedin']}`} onClick={() => window.open('https://www.linkedin.com/in/wlsp-338b15217/', "_blank")}><LinkedinIcon className={styles['icon']} />  LinkedIn</button>
           </div>
           <div className={styles['dbc--about']}>
             <h2>About</h2>

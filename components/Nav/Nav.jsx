@@ -7,6 +7,7 @@ export default function Nav() {
 
   const handleDropdown = () => setListOpen(!listOpen);
 
+
   return (
     <nav className={styles['nav']}>
       <img className={styles['nav--logo']} src={'../images/react.svg'} alt='react logo' />
@@ -18,14 +19,19 @@ export default function Nav() {
       <h4 className={styles['nav--title']}>React Course -
         <span onClick={handleDropdown}> Projects</span></h4>
       <ul className={listOpen ? styles['nav--open'] : styles['nav--list']}>
-        <li>
+        <li onClick={handleDropdown}>
           <Link href="/projects/digitalbusinesscard" passHref>
             <a>Digital Business Card</a>
           </Link>
         </li>
-        <li>
+        <li onClick={handleDropdown}>
           <Link href="/projects/airbnb" passHref>
             <a>Airbnb</a>
+          </Link>
+        </li>
+        <li onClick={handleDropdown}>
+          <Link href="/projects/traveljournal" passHref>
+            <a>My Travel-Journal</a>
           </Link>
         </li>
       </ul>
