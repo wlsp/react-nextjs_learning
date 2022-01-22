@@ -4,13 +4,13 @@
 .tj {
   background: #fff;
   border-radius: .3125rem;
-  font-family: 'Inter', sans-serif;
   margin: 3rem auto;
   width: 55rem;
 
   &--main {
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
     padding: 2.25rem;
   }
 
