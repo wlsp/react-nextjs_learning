@@ -1,0 +1,20 @@
+.meme {
+  &--header {
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 4.0625rem;
+    padding: 1rem;
+  }
+
+  &--logo-container {
+    display: flex;
+    gap: .575rem;
+  }
+  &--main {
+    margin: 2rem auto;
+    width: 40.625rem;
+  }
+}
