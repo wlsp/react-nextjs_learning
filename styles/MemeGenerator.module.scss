@@ -1,4 +1,8 @@
 .meme {
+  background: #fff;
+  margin: 2rem auto;
+  width: 38.625rem;
+
   &--header {
     align-items: center;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
@@ -13,8 +17,34 @@
     display: flex;
     gap: .575rem;
   }
-  &--main {
-    margin: 2rem auto;
-    width: 40.625rem;
+
+  &--form {
+    display: grid;
+    gap: 1rem;
+    grid-template: 3.125rem 3.125rem / 1fr 1fr;
+    padding: 2.5rem;
+  }
+
+  &--input {
+    border-radius: .3125rem;
+    border: .0625rem solid #D5D4D8;
+    font-size: 1.2rem;
+    text-indent: .3125rem;
+  }
+
+  &--btn {
+    background: linear-gradient(-90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: none;
+    border-radius: .3125rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    grid-column: 1 / -1;
+  }
+
+  &--img {
+    max-width: 100%;
+    grid-column: 1 / -1;
+    margin: 0 auto;
   }
 }

@@ -1,4 +1,4 @@
-import styles from './Home.module.scss'
+import styles from './MainContent.module.scss'
 
 export default function MainContent() {
   return (

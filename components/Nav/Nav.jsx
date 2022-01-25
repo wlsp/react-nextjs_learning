@@ -34,7 +34,12 @@ export default function Nav() {
             <a>My Travel-Journal</a>
           </Link>
         </li>
-      </ul>
+        <li onClick={handleDropdown}>
+          <Link href="/projects/memegenerator" passHref>
+            <a>Meme Generator</a>
+          </Link>
+        </li>
+        </ul>
     </nav>
   )
 }
